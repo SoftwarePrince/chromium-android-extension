@@ -1,0 +1,7 @@
+There is a set of patches for Chromium to enable extensions on Android.
+It's open source and located here: https://github.com/wchen342/chromium-android-extension
+The issue is that it works for v88. Nowadays is v100+.
+
+Your goal is to fix all the conflicts in these patches and make Chromium buildable for Android platform.
+Then, make sure that extensions are enabled and are working fine on latest versions of Chromium.
+There is a high chance that you won't need to write any extra code, just fix the conflicts because some files were moved, some lines were changed, but in general these fixes should work fine on newest versions.
